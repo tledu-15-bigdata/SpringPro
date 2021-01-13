@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       ">
+    <!-- 在Spring中注册bean对象-->
+    <!--
+        id:创建对象的名称
+        class：类的包路径
+        含义：spring会实例化xxx.Student  对象  对象名称 叫 myStudent
+    -->
+<!--  scope 声明容器中的对象所应该处的限定场景
+    singleton：单例
+    prototype：多例，每次创建新对象
+  -->
+    <bean id="myStudent" class="com.tledu.cn.basic.spring_bean_1.domain.Student"
+          scope="singleton"/>
+
+
+    <!--利用setter方法实现数据注入-->
+    <bean id="myTeacher" class="com.tledu.cn.basic.spring_di_2.constuctor_di.Teacher" autowire="byType">
+        <property name="name" value="张老师"/>
+        <property name="address" value="河北省石家庄市"/>
+        <property name="phone" value="1383838438"/>
+        <property name="dog" ref="dog"/>
+        <property name="schools">
+             <list>
+                 <value>小学</value>
+                 <value>中学</value>
+                 <value>高中</value>
+                 <value>大学</value>
+             </list>
+        </property>
+
+    </bean>
+    <!--利用构造器 实现数据注入-->
+    <bean id="cat" class="com.tledu.cn.basic.spring_di_2.constuctor_di.Dog">
+        <constructor-arg name="name" value="牧羊人"/>
+        <constructor-arg name="color" value="黑白色"/>
+        <constructor-arg name="age" value="5"/>
+    </bean>
+
+    <bean id="dog" class="com.tledu.cn.basic.spring_di_2.constuctor_di.Dog">
+<!--        <constructor-arg name="name" value="xxx1"/>-->
+<!--        <constructor-arg name="color" value="xxx2"/>-->
+<!--        <constructor-arg name="age" value="5"/>-->
+
+        <!--隐性赋值-->
+<!--        <constructor-arg index="1" value="5"/>-->
+<!--        <constructor-arg index="0" value="京巴"/>-->
+
+<!--        <constructor-arg index="2" value="灰色"/>-->
+    </bean>
+
+
+
+
+
+
+    <!--开启注解配置自动扫描带有注解的类进行Spring容器接管，从而实现DI-->
+<!--    <context:annotation-config/>-->
+<!--    <context:component-scan base-package="com.tledu.cn.basic"/>-->
+</beans>
