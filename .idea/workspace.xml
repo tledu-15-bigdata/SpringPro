@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="894c50b6-f5c9-4aa9-b519-4558418502ec" name="Default Changelist" comment="" />
+    <list id="9060509e-f7b9-4254-9535-72816695c89c" name="ignore" comment="ignore" />
+    <list id="ea5888f1-e76f-4c3d-9f55-c6e2e1128bcf" name="Revert &quot;first commit&quot;" comment="Revert &quot;first commit&quot;&#10;&#10;This reverts commit a3d43c90" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="spring-config" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="KEEP" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\YouLi\Desktop\Spring\SpringPro\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\gxpsoft\maven\repository" />
+        <option name="mavenHome" value="C:/gxpsoft/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\gxpsoft\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1maqmFRu1uc55THkawn6LaXna8J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tledu.cn.basic.spring_jdbc_5.xml.util" />
+      <recent name="com.tledu.cn.basic.spring_jdbc_5.xml.pojo" />
+      <recent name="com.tledu.cn.basic.spring_jdbc_5.xml.dao" />
+      <recent name="com.tledu.cn.basic.spring_jdbc_5.anno.pojo" />
+      <recent name="com.tledu.cn.aop.aop_anno" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\YouLi\Desktop\Spring\SpringPro\src\resources" />
+      <recent name="C:\Users\YouLi\Desktop\Spring\SpringPro\src\com\tledu\cn\basic\spring_config_3" />
+      <recent name="C:\Users\YouLi\Desktop\Spring\SpringPro\src\com\tledu\cn\aop" />
+      <recent name="C:\Users\YouLi\Desktop\Spring\SpringPro\src\com\tledu\cn\proxy\static_proxy" />
+      <recent name="C:\Users\YouLi\Desktop\Spring\SpringPro\src\com\tledu\cn\basic" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AopXmlRun">
+    <configuration name="AopXmlRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tledu.cn.aop.base_aop_xml.AopXmlRun" />
+      <module name="SpringPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tledu.cn.aop.base_aop_xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tledu.cn.proxy.dynamic_proxy.cglib.Client" />
+      <module name="SpringPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tledu.cn.proxy.dynamic_proxy.cglib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDKProxyRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tledu.cn.proxy.dynamic_proxy.jdk.JDKProxyRun" />
+      <module name="SpringPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tledu.cn.proxy.dynamic_proxy.jdk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdkProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tledu.cn.proxy.dynamic_proxy.jdk.JdkProxy" />
+      <module name="SpringPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tledu.cn.proxy.dynamic_proxy.jdk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringJDBCRun.constructorDI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tledu.cn.basic.spring_jdbc_5.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tledu.cn.basic.spring_jdbc_5.xml" />
+      <option name="MAIN_CLASS_NAME" value="com.tledu.cn.basic.spring_jdbc_5.xml.SpringJDBCRun" />
+      <option name="METHOD_NAME" value="constructorDI" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringJDBCRun.constructorDI" />
+        <item itemvalue="Application.JDKProxyRun" />
+        <item itemvalue="Application.JdkProxy" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.AopXmlRun" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\YouLi\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="894c50b6-f5c9-4aa9-b519-4558418502ec" name="Default Changelist" comment="" />
+      <changelist id="9060509e-f7b9-4254-9535-72816695c89c" name="ignore" comment="" />
+      <created>1609742206965</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609742206965</updated>
+      <workItem from="1609742210276" duration="12512000" />
+      <workItem from="1609807849504" duration="11763000" />
+      <workItem from="1609850402167" duration="6553000" />
+      <workItem from="1609860342113" duration="1928000" />
+      <workItem from="1610021935151" duration="4868000" />
+      <workItem from="1610108487081" duration="4647000" />
+      <workItem from="1610113958202" duration="301000" />
+      <workItem from="1610163691241" duration="1944000" />
+      <workItem from="1610280790854" duration="794000" />
+      <workItem from="1610329619787" duration="14798000" />
+      <workItem from="1610411084685" duration="17922000" />
+      <workItem from="1610499223061" duration="19811000" />
+      <workItem from="1610529450512" duration="479000" />
+      <workItem from="1610545055438" duration="3154000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1610546106760</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610546106760</updated>
+    </task>
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1610547257790</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610547257790</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Revert &quot;first commit&quot;&#10;&#10;This reverts commit a3d43c90">
+      <created>1610547527395</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610547527395</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="second commit" />
+    <MESSAGE value="Revert &quot;first commit&quot;&#10;&#10;This reverts commit a3d43c90" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;first commit&quot;&#10;&#10;This reverts commit a3d43c90" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="343" y="79" key="#Auto_Import" timestamp="1610022509341">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state x="343" y="79" key="#Auto_Import/0.0.1500.834@0.0.1500.834" timestamp="1610022509341" />
+    <state x="360" y="100" key="#Notifications" timestamp="1610545650692">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state x="360" y="100" key="#Notifications/0.0.1500.834@0.0.1500.834" timestamp="1610545650692" />
+    <state x="506" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1610506680887">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state x="506" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1500.834@0.0.1500.834" timestamp="1610506680887" />
+    <state x="581" y="109" width="606" height="616" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1609859004078">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state x="581" y="109" width="606" height="616" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1500.834@0.0.1500.834" timestamp="1609859004078" />
+    <state x="373" y="0" key="CommitChangelistDialog2" timestamp="1610548229014">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state x="373" y="0" key="CommitChangelistDialog2/0.0.1500.834@0.0.1500.834" timestamp="1610548229014" />
+    <state x="128" y="121" width="1279" height="634" key="DiffContextDialog" timestamp="1610545775003">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state x="128" y="121" width="1279" height="634" key="DiffContextDialog/0.0.1500.834@0.0.1500.834" timestamp="1610545775003" />
+    <state x="531" y="175" key="FileChooserDialogImpl" timestamp="1610546159073">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state x="531" y="175" key="FileChooserDialogImpl/0.0.1500.834@0.0.1500.834" timestamp="1610546159073" />
+    <state x="603" y="327" width="650" height="369" key="Github.ShareDialog" timestamp="1610545510749">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state x="603" y="327" width="650" height="369" key="Github.ShareDialog/0.0.1500.834@0.0.1500.834" timestamp="1610545510749" />
+    <state width="1457" height="305" key="GridCell.Tab.0.bottom" timestamp="1610529282515">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state width="1457" height="305" key="GridCell.Tab.0.bottom/0.0.1500.834@0.0.1500.834" timestamp="1610529282515" />
+    <state width="1442" height="290" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1610026807309" />
+    <state width="1457" height="305" key="GridCell.Tab.0.center" timestamp="1610529282515">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state width="1457" height="305" key="GridCell.Tab.0.center/0.0.1500.834@0.0.1500.834" timestamp="1610529282515" />
+    <state width="1442" height="290" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1610026807309" />
+    <state width="1457" height="305" key="GridCell.Tab.0.left" timestamp="1610529282515">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state width="1457" height="305" key="GridCell.Tab.0.left/0.0.1500.834@0.0.1500.834" timestamp="1610529282515" />
+    <state width="1442" height="290" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1610026807308" />
+    <state width="1457" height="305" key="GridCell.Tab.0.right" timestamp="1610529282515">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state width="1457" height="305" key="GridCell.Tab.0.right/0.0.1500.834@0.0.1500.834" timestamp="1610529282515" />
+    <state width="1442" height="290" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1610026807309" />
+    <state x="355" y="133" key="IDE.errors.dialog" timestamp="1610548018820">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state x="355" y="133" key="IDE.errors.dialog/0.0.1500.834@0.0.1500.834" timestamp="1610548018820" />
+    <state x="167" y="41" key="MergeDialog" timestamp="1610547616045">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state x="167" y="41" key="MergeDialog/0.0.1500.834@0.0.1500.834" timestamp="1610547616045" />
+    <state x="483" y="103" key="MultipleFileMergeDialog" timestamp="1610547638379">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state x="483" y="103" key="MultipleFileMergeDialog/0.0.1500.834@0.0.1500.834" timestamp="1610547638379" />
+    <state x="545" y="111" key="RollbackChangesDialog" timestamp="1610548303130">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state x="545" y="111" key="RollbackChangesDialog/0.0.1500.834@0.0.1500.834" timestamp="1610548303130" />
+    <state x="231" y="0" key="SettingsEditor" timestamp="1610545841954">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state x="231" y="0" key="SettingsEditor/0.0.1500.834@0.0.1500.834" timestamp="1610545841954" />
+    <state x="515" y="94" key="VCS.ChangeListViewerDialog" timestamp="1610548144334">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state x="515" y="94" key="VCS.ChangeListViewerDialog/0.0.1500.834@0.0.1500.834" timestamp="1610548144334" />
+    <state x="607" y="345" key="VCS.ChangelistChooser" timestamp="1610547874911">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state x="607" y="345" key="VCS.ChangelistChooser/0.0.1500.834@0.0.1500.834" timestamp="1610547874911" />
+    <state x="360" y="174" key="Vcs.Push.Dialog.v2" timestamp="1610548257956">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state x="360" y="174" key="Vcs.Push.Dialog.v2/0.0.1500.834@0.0.1500.834" timestamp="1610548257956" />
+    <state x="443" y="245" key="com.intellij.ide.util.TipDialog" timestamp="1610545099045">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state x="443" y="245" key="com.intellij.ide.util.TipDialog/0.0.1500.834@0.0.1500.834" timestamp="1610545099045" />
+    <state x="467" y="318" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1609828055067">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state x="467" y="318" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1500.834@0.0.1500.834" timestamp="1609828055067" />
+    <state x="564" y="356" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610546603292">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state x="564" y="356" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1500.834@0.0.1500.834" timestamp="1610546603292" />
+    <state x="453" y="240" key="git4idea.merge.GitPullDialog" timestamp="1610548094566">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state x="453" y="240" key="git4idea.merge.GitPullDialog/0.0.1500.834@0.0.1500.834" timestamp="1610548094566" />
+    <state x="561" y="293" key="git4idea.ui.GitResetDialog" timestamp="1610548145395">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state x="561" y="293" key="git4idea.ui.GitResetDialog/0.0.1500.834@0.0.1500.834" timestamp="1610548145395" />
+    <state x="413" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1610422798500">
+      <screen x="0" y="0" width="1500" height="834" />
+    </state>
+    <state x="413" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1500.834@0.0.1500.834" timestamp="1610422798500" />
+  </component>
+</project>
