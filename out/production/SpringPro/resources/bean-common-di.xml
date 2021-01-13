@@ -1,0 +1,57 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       ">
+    <bean id="hero" class="com.tledu.cn.basic.spring_di_2.common_di.Hero">
+<!--        property 属性-->
+        <property name="id" value="123"></property>
+        <property name="name" value="亚瑟 "></property>
+
+
+
+
+
+        <property name="jobs">
+            <list>
+                <value>上单</value>
+                <value>打野</value>
+                <value>中单</value>
+                <value>辅助</value>
+                <value>射手</value>
+            </list>
+        </property>
+        <property name="set">
+            <list>
+                <value>aaa</value>
+                <value>bbb</value>
+                <value>ccc</value>
+                <value>ddd</value>
+            </list>
+        </property>
+        <property name="map">
+            <map>
+               <entry key="addr" value="王者荣耀"></entry>
+               <entry key="addr" value="英雄联盟"></entry>
+               <entry key="skill" value="风火轮"></entry>
+               <entry key="age" value="19"></entry>
+            </map>
+        </property>
+        <property name="prop">
+            <props>
+                <prop key="k1">v1</prop>
+                <prop key="k2">v2</prop>
+                <prop key="k3">v3</prop>
+                <prop key="k4">v4</prop>
+            </props>
+        </property>
+<!--        reference  引用-->
+        <property name="cat" ref="cat"></property>
+        <property name="dog" ref="dog"></property>
+    </bean>
+    <bean id="dog" class="com.tledu.cn.basic.spring_di_2.common_di.Dog"></bean>
+    <bean id="cat" class="com.tledu.cn.basic.spring_di_2.common_di.Cat"></bean>
+</beans>
