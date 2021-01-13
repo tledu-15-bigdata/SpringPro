@@ -7,5 +7,6 @@ package com.tledu.cn.aop;
  * @Date 2018/4/17 21:29
  **/
 public interface IUserDao {
+
     void save();
 }
