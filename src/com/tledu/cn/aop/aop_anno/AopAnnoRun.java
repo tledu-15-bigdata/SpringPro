@@ -20,6 +20,6 @@ public class AopAnnoRun {
         UserServiceImpl userService = (UserServiceImpl) applicationContext.getBean("userServiceImpl");
         userService.add();
         System.out.println("-=-=-=-=-=-=-=");
-        userService.edit();
+//        userService.edit();
     }
 }

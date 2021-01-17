@@ -14,6 +14,10 @@ import org.springframework.stereotype.Service;
 public class SpringRun {
     ApplicationContext applicationContext=null;
 
+
+
+
+
     @Test
     public void constructorDI(){
 //        myService

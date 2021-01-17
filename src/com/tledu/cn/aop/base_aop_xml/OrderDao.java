@@ -11,8 +11,8 @@ public class OrderDao {
 //    主营业务方法 targetMethod
     public int save(int a,String b) {
         System.out.println("-------orderdao核心业务：已经保存！-------");
-//        int c=1/0;
-//        System.out.println(c);
+        int c=1/0;
+        System.out.println(c);
         return 3;
     }
 }
