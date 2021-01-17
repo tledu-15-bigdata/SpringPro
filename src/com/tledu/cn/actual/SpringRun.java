@@ -25,6 +25,7 @@ public class SpringRun {
     @Test
     public void constructorDI(){
 //        myService
+        System.out.println(111);
         MyService tea= (MyService) applicationContext.getBean("myService");
         int work = tea.work(1, 3);
         System.out.println(work);
