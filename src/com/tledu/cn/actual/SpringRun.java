@@ -12,7 +12,11 @@ import org.springframework.stereotype.Service;
 
 
 public class SpringRun {
-    ApplicationContext applicationContext=null;
+    ApplicationContext
+
+
+
+            applicationContext=null;
 
 
 
