@@ -61,45 +61,47 @@ public class Aop {
 
 
 //返回值
-//    public void afterThrowing(JoinPoint pjp,Exception ex){
-//
-//        System.out.println("=--==---==--333");
-//
-//        MethodSignature ms= (MethodSignature) pjp.getSignature();
-//        System.out.println("方法名");
-//        System.out.println(ms.getMethod().getName());
-//        System.out.println("包路径");
-//        System.out.println(pjp.getTarget().getClass().getName());
-//
-//        System.out.println(ex.getMessage());
-//
-//
-//    }
+    public void afterThrowing(JoinPoint pjp,Exception ex){
 
-//    public void afterReturning(JoinPoint pjp,Object result){
-////        Object[] objArray=pjp.getArgs();
-////        if(objArray.length>0){
-////            System.out.println(objArray[0]);
-////            System.out.println(objArray[1]);
-////        }
-//        System.out.println("=-=-=-=-=-=-=");
-//        MethodSignature ms= (MethodSignature) pjp.getSignature();
-//        System.out.println("方法名");
-//        System.out.println(ms.getMethod().getName());
-//        System.out.println("参数：");
-//        Parameter[] param=ms.getMethod().getParameters();
-//
-//        if(param.length>0){
-//            System.out.println(param[0]);
-//            System.out.println(pjp.getArgs()[0]);
-//            System.out.println(param[1]);
-//            System.out.println(pjp.getArgs()[1]);
+        System.out.println("=--==---==--333");
+
+        MethodSignature ms= (MethodSignature) pjp.getSignature();
+        System.out.println("方法名");
+        System.out.println(ms.getMethod().getName());
+        System.out.println("包路径");
+        System.out.println(pjp.getTarget().getClass().getName());
+
+        System.out.println(ex.getMessage());
+
+
+    }
+
+    public void afterReturning(JoinPoint pjp,Object result){
+//        Object[] objArray=pjp.getArgs();
+//        if(objArray.length>0){
+//            System.out.println(objArray[0]);
+//            System.out.println(objArray[1]);
 //        }
-//
-//        System.out.println("返回值类型");
-//        System.out.println(ms.getReturnType());
-//        System.out.println(result);
-//    }
+        System.out.println("=-=-=-=获取方法返回值过程-=-=-=");
+        MethodSignature ms= (MethodSignature) pjp.getSignature();
+        System.out.println("方法名");
+        System.out.println(ms.getMethod().getName());
+        System.out.println("参数：");
+//        获取形参参数名
+        Parameter[] param=ms.getMethod().getParameters();
+
+        if(param.length>0){
+            System.out.println(param[0]);
+//            根据Args 获取的是入参的参数值
+            System.out.println(pjp.getArgs()[0]);
+            System.out.println(param[1]);
+            System.out.println(pjp.getArgs()[1]);
+        }
+
+        System.out.println("返回值类型");
+        System.out.println(ms.getReturnType());
+        System.out.println(result);
+    }
 
 //    public void around(ProceedingJoinPoint pjp){
 //
